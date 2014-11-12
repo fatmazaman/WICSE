@@ -14,4 +14,4 @@ Start From page:
 
 2:: Code to the big Transparent box can be found in custom.css at line #320.
 
-3:: pictures of wicse, domain and server, twitter id, linkedIn id, facebook id, members details
+3:: pictures of wicse, domain and server, twitter id, Youtube id, Google+, facebook id, members details.
