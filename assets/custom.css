@@ -1,0 +1,326 @@
+@font-face{
+      font-family:'Josefin Sans'; 
+      src:url('./JosefinSans-Regular.ttf');
+         }
+@font-face{
+	font-family: 'Raleway-Regular Sans';
+	src:url('./Raleway-Regular.ttf');
+}
+body{
+	font-family: 'Raleway-Regular Sans';
+}
+.submit-main-button{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 500;
+	display: none;
+}
+
+.section-intro{
+	background-image: url(./women-in-startups.png);
+	background-color: #4A4A4A;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	width: 100%;
+	/*min-height: 700px;*/
+	color: white;
+}
+
+.section-intro h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 35px;
+	letter-spacing: 2px;
+	font-family: "Josefin Sans";
+	margin-top: 35px;
+}
+
+.section-intro h2{
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 10px;
+	font-family: "Josefin Sans";
+}
+
+.section-traverse button{
+	font-size: 18px;
+	margin: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	padding: 10px 18px 10px 18px;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+
+.about-us-text{
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 35px;
+	padding: 10px;
+	font-family: 'Raleway-Regular Sans';
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.panel-mystyle{
+	background-color: #4A4A4A;
+	color: #F5F5F5;
+	min-height: 400px;
+	padding: 10px 20px 0 20px;
+}
+
+.panel-mystyle h4{
+	font-family: "Josefin Sans";
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.panel-mystyle p{
+	padding-top:10px; 
+	text-align: justify;
+}
+
+.winners-panel{
+	-webkit-box-shadow: 0px 0px 25px 10px #4A4A4A;
+	-moz-box-shadow: 0px 0px 25px 10px #4A4A4A;
+	box-shadow: 0px 0px 25px 10px #4A4A4A;
+}
+
+.winners-panel h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.round-wrapper {
+    width: 140px;
+    height: 140px;
+    display:inline-block;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    position:relative;
+    text-align: center;
+    padding: 20px;
+    background-color:#F5F5F5;
+}
+
+.section-head{
+	text-align: center;
+	font-weight: bold;
+	color: #4A4A4A;
+	text-transform: uppercase;
+	padding-top: 40px;
+	margin-top: 40px;
+	font-family: "Josefin Sans";
+}
+
+.contact-us-foot{
+	background-color: #4A4A4A;
+	text-align: center;
+	padding: 40px;
+	padding-bottom: 10px;
+}
+
+.contact-us-foot h3{
+	color: #F5F5F5;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px;
+	font-family: "Josefin Sans";
+}
+
+.contact-us-foot h3 span{
+	color: #fff;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	text-shadow: 0 0 30px #428bca;
+	padding: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.contact-us-foot .animate {
+    animation: blink 0.5s infinite;
+    -webkit-animation: blink 0.5s infinite;
+    -moz-animation: blink 0.5s infinite;
+    -o-animation: blink 0.5s infinite;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0%	 {opacity: 0;}
+	50%	 {opacity: 1;}
+	100% {opacity: 0;}
+}
+@-webkit-keyframes blink {
+    0%	 {opacity: 0;}
+	50%	 {opacity: 1;}
+	100% {opacity: 0;}
+}
+@-moz-keyframes blink {
+    0% 	 {opacity: 0;}
+	50%  {opacity: 1;}
+	100% {opacity: 0;}
+}
+@-o-keyframes blink {
+    0% 	 {opacity: 0;}
+	50%  {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+.contact-us-foot p{
+	margin-top: 20px;
+	color: #8C8C8C;
+	font-size: 12px;
+}
+
+.contact-us-foot i{
+	padding: 20px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 40px;
+	color: #4A4A4A;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;  
+	background-color: #F5F5F5;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;  
+}
+
+#fb a:hover  i{color:#3B5998;}
+#li a:hover  i{color:#007bb6;}
+#tw a:hover  i{color:#00aced;}
+#gp a:hover  i{color:#D34836;}
+#mt a:hover  i{color:#FFF37E;}
+#yt a:hover  i{color:#F20000;}
+
+#voverlay {
+	background-image:url(./video-white.png);
+	width:70% !important;
+	height:75% !important;
+	display:none;
+	padding:35px;
+}
+
+#voverlay .close {
+	background-image:url(./close.png);
+	position:absolute;
+	right:5px;
+	top:5px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+	opacity: 1;
+}
+
+#voverlay .vcontainer{
+	left:0;
+	top:0;
+	width:100% !important;
+	height:100% !important;	
+	background:url(./loading.gif) no-repeat 50% 50%;
+}
+
+#voverlay .vcontainer > div{
+	height:100%;
+}
+
+.sources{
+	background-color: #428bca;
+	padding: 10px;
+}
+
+.sources-data{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #F5F5F5;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.sources-data h1{
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+}
+
+
+.sources-data h2{
+	font-size: 18px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.sources-data h3{
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
+/*Override Bootstrap buttons*/
+/*.btn-primary{
+	border-color:#FFFFFF;
+}*/
+.btn-danger, .btn-warning, .btn-success, .btn-info{
+	border-color:#FFFFFF;
+}
+.btn-warning{
+	background-color:#F2A314;
+}
+.btn-info{
+	background-color:#018FBA;
+}
+.btn-danger{
+background-color:#C31A15;	
+}
+.btn-success{
+	background-color:#0FAB0F;
+}
+/***** WICS @ USF *****/
+
+/*.coming-soon {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}*/
+.boxed{
+	  border: 3px solid black;
+	  color: #204056;
+    background-color:#FDF8F8;
+    opacity: 0.8;
+  
+}
