@@ -1,0 +1,17 @@
+1. use Typeform as your "feedback" and "Join us" data.
+
+
+2. Use Google calender for next events and dates.
+
+3. Need to put Google analytics code under the script tag at line #62 may be.
+
+
+
+=========================================
+Start From page:
+
+1:: Code to Background Image of Page can be found in "custom.css" file at line #21.
+
+2:: Code to the big Transparent box can be found in custom.css at line #320.
+
+3:: 
