@@ -10,7 +10,7 @@ function isEmail($email) {
 if($_POST) {
 
     // Enter the email where you want to receive the notification when someone subscribes
-    $emailTo = 'fatma302@gmail.com';
+    $emailTo = 'abhinay302@gmail.com';
 
     $subscriber_email = ($_POST['email']);
 
@@ -35,10 +35,27 @@ if($_POST) {
         //     $array['valid'] = 1;
         //     $array['message'] = 'Thanks for your subscription!';
         //     echo json_encode($array);
+        // ///////////////////////////////////////////////////
+        // This message will go the subscriber as a response
+        // //////////////////////////////////////////////////
+        require 'vendor/autoload.php';
+        use Mailgun\Mailgun;
+
+        # Instantiate the client.
+        $mgClient = new Mailgun('key-8bcb9c094ade3ed99940ec67d6e6260c');
+        $domain = "www.codersfactory.in";
+
+        # Make the call to the client.
+        $result = $mgClient->sendMessage($domain, array(
+        'from'    => 'abhinay <abhinay@codersfactory.in>',
+        'to'      => "abhinay <".$subscriber_email.">",
+        'subject' => 'Hello',
+        'text'    => 'Thanks for subscribesing!!'));
         header("location:./");
     }
 
 }
+
 header("location:./");
 
 ?>
